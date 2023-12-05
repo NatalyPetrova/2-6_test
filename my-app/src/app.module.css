@@ -1,0 +1,17 @@
+.app {
+	width: 500px;
+	margin: 50px auto;
+	border: 2px solid #444;
+	border-radius: 10px;
+}
+
+.truncate {
+	white-space: nowrap; /* Запрет переноса текста на новую строку */
+	overflow: hidden; /* Скрытие текста, который не помещается в элементе */
+	text-overflow: ellipsis; /* Добавление многоточия (...) в конце текста */
+	max-width: 300px;
+}
+
+:global .active {
+	text-decoration: none;
+}
